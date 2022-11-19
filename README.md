@@ -1,8 +1,8 @@
 ### API Endpoints
-| HTTP Verbs | Endpoints | Action |
-| --- | --- | --- |
-| GET | /news/:n/:keyword | To retrieve n news with the specific keyword |
-| GET | /news/top/:n/:category | To retrieve top n news in specific category |
+| HTTP Method | Endpoints | Action | Example |
+| --- | --- | --- | --- |
+| GET | /news/:n/:keyword | To retrieve n news with the specific keyword | localhost:3000/news/5/elon |
+| GET | /news/top/:n/:category | To retrieve top n news in specific category | localhost:3000/news/top/8/world |
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
